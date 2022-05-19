@@ -1,11 +1,11 @@
-# `@boty-design/icons`
+# `@adc-component/icons`
 
 > TODO: description
 
 ## Usage
 
 ```
-const icons = require('@boty-design/icons');
+const icons = require('@adc-component/icons');
 
 // TODO: DEMONSTRATE API
 ```

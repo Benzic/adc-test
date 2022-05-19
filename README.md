@@ -24,15 +24,15 @@
 
 ## 安装
 ```jsx
-$ npm install @boty-design/components --save
+$ npm install @adc-component/components --save
 
-$ yarn add @boty-design/components
+$ yarn add @adc-component/components
 
 ```
 
 ## 使用
 ```jsx
-import { Button } from "@boty-design/components";
+import { Button } from "@adc-component/components";
 
 const App = () => (
      <Button onClick={handlerSyncClick} loading={true}  >

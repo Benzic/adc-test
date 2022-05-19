@@ -21,7 +21,7 @@ export default {
       .use('babel-loader');
   },
   alias: {
-    '@boty-design/components': join(
+    '@adc-component/components': join(
       __dirname,
       '..',
       '..',

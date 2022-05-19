@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import '@boty-design/themes/default.css';
+// import '@adc-component/themes/default.css';
 import App from './App';
 
 ReactDOM.render(
