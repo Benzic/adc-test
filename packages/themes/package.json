@@ -2,7 +2,6 @@
   "name": "@adc-component/themes",
   "version": "1.0.4",
   "description": "> TODO: description",
-  "author": "boty",
   "homepage": "https://github.com/boty-design/boty-design#readme",
   "license": "ISC",
   "directories": {
@@ -22,5 +21,5 @@
   "bugs": {
     "url": "https://github.com/boty-design/boty-design/issues"
   },
-  "gitHead": "21485c58efe596b609f29657ef7726d5c78fa68c"
+  "gitHead": "532b223c0dd403149aceef7f8e63f22c19fd0be9"
 }

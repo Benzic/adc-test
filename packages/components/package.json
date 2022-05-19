@@ -2,7 +2,6 @@
   "name": "@adc-component/components",
   "version": "0.0.4",
   "description": "> TODO: description",
-  "author": "boty",
   "homepage": "https://github.com/boty-design/boty-design#readme",
   "license": "ISC",
   "main": "src/index.ts",
@@ -32,5 +31,5 @@
   "dependencies": {
     "@ant-design/icons": "^4.5.0"
   },
-  "gitHead": "21485c58efe596b609f29657ef7726d5c78fa68c"
+  "gitHead": "532b223c0dd403149aceef7f8e63f22c19fd0be9"
 }
