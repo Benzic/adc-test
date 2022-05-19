@@ -23,5 +23,6 @@
   },
   "devDependencies": {
     "plop": "^2.7.4"
-  }
+  },
+  "gitHead": "923d64f32ab062d9984a0706061cbe2000bef556"
 }

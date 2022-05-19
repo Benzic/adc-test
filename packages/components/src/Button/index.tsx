@@ -1,28 +1,28 @@
-import React, { useState } from 'react';
-import classNames from 'classnames';
-import { LoadingOutlined } from '@ant-design/icons';
-import { tuple } from '@boty-design/utils';
-import { getPrefixCls } from '../config/provider';
+import React, { useState } from "react";
+import classNames from "classnames";
+import { LoadingOutlined } from "@ant-design/icons";
+import { tuple } from "@boty-design/utils";
+import { getPrefixCls } from "../config/provider";
 
-import './index.less';
+import "./index.less";
 
 const ButtonTypes = tuple(
-  'default',
-  'primary',
-  'ghost',
-  'dashed',
-  'link',
-  'text'
+  "default",
+  "primary",
+  "ghost",
+  "dashed",
+  "link",
+  "text"
 );
 export type ButtonType = typeof ButtonTypes[number];
 
-const ButtonShapes = tuple('circle', 'round');
+const ButtonShapes = tuple("circle", "round");
 export type ButtonShape = typeof ButtonShapes[number];
 
-const ButtonHTMLTypes = tuple('submit', 'button', 'reset');
+const ButtonHTMLTypes = tuple("submit", "button", "reset");
 export type ButtonHTMLType = typeof ButtonHTMLTypes[number];
 
-export type SizeType = 'small' | 'middle' | 'large' | undefined;
+export type SizeType = "small" | "middle" | "large" | undefined;
 
 const colorSchemes = tuple("primary", "success", "error", "warning");
 export type colorScheme = typeof colorSchemes[number];
@@ -67,7 +67,7 @@ interface BaseButtonProps {
    * @description 按钮颜色
    */
   colorSchemes?: string;
-   /**
+  /**
    * @description 危险类型
    */
   danger?: boolean;
@@ -77,7 +77,6 @@ interface BaseButtonProps {
   htmlType?: ButtonHTMLType;
   children?: React.ReactNode;
 }
-
 
 interface INativeButtonProps {
   /**
@@ -96,7 +95,7 @@ type Loading = number | boolean;
 
 const Button = (props: IButtonProps) => {
   const {
-    htmlType = 'button' as IButtonProps['htmlType'],
+    htmlType = "button" as IButtonProps["htmlType"],
     prefixCls,
     type,
     shape,
@@ -111,14 +110,14 @@ const Button = (props: IButtonProps) => {
 
   const [innerLoading, setLoading] = useState<Loading>(false);
 
-  let sizeCls = '';
+  let sizeCls = "";
 
   switch (customizeSize) {
-    case 'large':
-      sizeCls = 'lg';
+    case "large":
+      sizeCls = "lg";
       break;
-    case 'small':
-      sizeCls = 'sm';
+    case "small":
+      sizeCls = "sm";
       break;
     default:
       break;
@@ -138,10 +137,9 @@ const Button = (props: IButtonProps) => {
     }
   };
 
-  const selfPrefixCls = getPrefixCls(prefixCls || 'btn');
+  const selfPrefixCls = getPrefixCls(prefixCls || "btn");
 
-  const iconType = innerLoading ? 'loading' : icon;
-
+  const iconType = innerLoading ? "loading" : icon;
 
   const LoadingNode = () => {
     if (icon) return icon;
@@ -160,10 +158,10 @@ const Button = (props: IButtonProps) => {
       [`${selfPrefixCls}-color-${colorSchemes}`]: colorSchemes,
     },
     className,
-    LoadingNode() && childrenNode ? `${selfPrefixCls}-has-icon` : ''
+    LoadingNode() && childrenNode ? `${selfPrefixCls}-has-icon` : ""
   );
 
-  const iconPrefixCls = getPrefixCls('btn-icon');
+  const iconPrefixCls = getPrefixCls("btn-icon");
   const iconClasses = classNames(
     iconPrefixCls,
     {
@@ -171,8 +169,6 @@ const Button = (props: IButtonProps) => {
     },
     className
   );
-
-
 
   return (
     <button
