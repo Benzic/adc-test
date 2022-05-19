@@ -6,11 +6,11 @@
  * @Description:
  */
 import React, { useState } from 'react';
-import { Button, Select } from 'adc-component/components';
+import { Button, Select } from '@boty-design/components';
 import { LoadingOutlined, CheckOutlined } from '@ant-design/icons';
-import { useFormItem } from 'adc-component/form-generator';
-import Form from 'adc-component/form-generator/src/components/Form';
-import Field from 'adc-component/form-generator/src/components/Field';
+import { useFormItem } from '@boty-design/form-generator';
+import Form from '@boty-design/form-generator/src/components/Form';
+import Field from '@boty-design/form-generator/src/components/Field';
 
 function App() {
   const [count, setCount] = useState(0);

@@ -1,11 +1,11 @@
-# `adc-component/form-generator`
+# `@boty-design/form-generator`
 
 > TODO: description
 
 ## Usage
 
 ```
-const formGenerator = require('adc-component/form-generator');
+const formGenerator = require('@boty-design/form-generator');
 
 // TODO: DEMONSTRATE API
 ```

@@ -16,7 +16,7 @@
  * desc: 参考 antd
  */
 import React from 'react';
-import Button from 'adc-component/components/Button';
+import Button from '@boty-design/components/Button';
 export default () => <Button>按钮</Button>;
 ```
 
@@ -27,7 +27,7 @@ export default () => <Button>按钮</Button>;
  */
 
 import React from 'react';
-import Button from 'adc-component/components/Button';
+import Button from '@boty-design/components/Button';
 const handlerSyncClick = () => {
   return new Promise((resolve) => {
     setTimeout(() => {

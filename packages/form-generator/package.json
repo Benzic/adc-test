@@ -1,9 +1,9 @@
 {
-  "name": "adc-component/form-generator",
+  "name": "@boty-design/form-generator",
   "version": "1.0.1",
   "description": "> TODO: description",
   "author": "boty",
-
+  "homepage": "https://github.com/boty-design/boty-design#readme",
   "license": "ISC",
   "main": "src/index.ts",
   "directories": {
@@ -18,13 +18,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Benzic/adc-test.git"
+    "url": "git+https://github.com/boty-design/boty-design.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
-    "url": "https://github.com/Benzic/adc-test/issues"
+    "url": "https://github.com/boty-design/boty-design/issues"
   },
   "dependencies": {
     "invariant": "^2.2.4",

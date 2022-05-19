@@ -1,4 +1,4 @@
-# adc-component
+# boty-design
 
 <p align="center">
     <img alt="logo" src="https://avatars.githubusercontent.com/u/79920730" width="300" height="300">
@@ -6,13 +6,13 @@
 <p align="center">从零打造一套企业级react 组件库生态</p>
 
 <p align="center">
-  <a href="https://github.com/adc-component/adc-component">
+  <a href="https://github.com/boty-design/boty-design">
     <img src="https://img.shields.io/badge/react-组件库-blue.svg" alt="vue">
   </a>
-  <a href="https://github.com/adc-component/adc-component">
+  <a href="https://github.com/boty-design/boty-design">
     <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="element-ui">
   </a>
-  <a href="https://github.com/adc-component/adc-component">
+  <a href="https://github.com/boty-design/boty-design">
     <img src="https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg" alt="lerna">
   </a>
 </p>
@@ -20,19 +20,19 @@
 
 ## 文档
 
-[中文文档](https://adc-component.github.io/adc-component/)
+[中文文档](https://boty-design.github.io/boty-design/)
 
 ## 安装
 ```jsx
-$ npm install adc-component/components --save
+$ npm install @boty-design/components --save
 
-$ yarn add adc-component/components
+$ yarn add @boty-design/components
 
 ```
 
 ## 使用
 ```jsx
-import { Button } from "adc-component/components";
+import { Button } from "@boty-design/components";
 
 const App = () => (
      <Button onClick={handlerSyncClick} loading={true}  >

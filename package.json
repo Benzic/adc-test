@@ -1,15 +1,15 @@
 {
-  "name": "adc-component",
+  "name": "boty-design",
   "private": true,
   "files": [
     "dist"
   ],
   "scripts": {
-    "dev": "lerna exec --scope \"adc-component/examples\" yarn dev",
-    "build": "lerna run --parallel --scope \"adc-component/*\" build",
+    "dev": "lerna exec --scope \"@boty-design/examples\" yarn dev",
+    "build": "lerna run --parallel --scope \"@boty-design/*\" build",
     "doc": "cross-env APP_ROOT=dumi dumi dev",
     "doc:build": "cross-env APP_ROOT=dumi dumi build",
-    "generator": "lerna exec --scope \"adc-component/scripts\" yarn generator"
+    "generator": "lerna exec --scope \"@boty-design/scripts\" yarn generator"
   },
   "devDependencies": {
     "@types/classnames": "^2.2.11",

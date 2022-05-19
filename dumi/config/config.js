@@ -8,8 +8,8 @@
 import { join } from 'path';
 
 export default {
-  base: '/adc-component',
-  publicPath: '/adc-component/',
+  base: '/boty-design',
+  publicPath: '/boty-design/',
   chainWebpack(memo) {
     memo.module
       .rule('js')
@@ -21,7 +21,7 @@ export default {
       .use('babel-loader');
   },
   alias: {
-    'adc-component/components': join(
+    '@boty-design/components': join(
       __dirname,
       '..',
       '..',

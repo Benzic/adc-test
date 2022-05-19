@@ -2,6 +2,6 @@
 
 const formGenerator = require('..');
 
-describe('adc-component/form-generator', () => {
+describe('@boty-design/form-generator', () => {
     it('needs tests');
 });

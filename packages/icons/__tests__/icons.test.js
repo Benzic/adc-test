@@ -2,6 +2,6 @@
 
 const icons = require('..');
 
-describe('adc-component/icons', () => {
+describe('@boty-design/icons', () => {
     it('needs tests');
 });

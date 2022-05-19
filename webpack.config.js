@@ -15,7 +15,7 @@
 module.exports = {
   resolve: {
     alias: {
-      'adc-component': require('path').resolve(__dirname, 'packages'), // eslint-disable-line
+      '@boty-design': require('path').resolve(__dirname, 'packages'), // eslint-disable-line
     },
   },
 };

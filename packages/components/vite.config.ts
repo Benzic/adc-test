@@ -16,7 +16,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/index.ts'),
-      name: 'adc-component',
+      name: 'boty-design',
       formats:['es','umd','cjs']
     }
   }

@@ -1,6 +1,6 @@
 import { useCallback, MutableRefObject } from 'react';
 import { ValidateRule, Wrapped, FormContext, ActionEnums } from '../types';
-import isPromise from 'adc-component/utils/src/isPromise';
+import isPromise from '@boty-design/utils/src/isPromise';
 import { FormActions } from '../types';
 
 function setValidating<V>(

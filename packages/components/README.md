@@ -1,4 +1,4 @@
-# `adc-component/components`
+# `boty-design/components`
 
 > TODO: description
 
