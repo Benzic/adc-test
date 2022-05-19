@@ -1,9 +1,8 @@
 {
-  "name": "@boty-design/scripts",
-  "version": "1.0.1",
+  "name": "@adc-component/scripts",
+  "version": "0.0.1",
   "private": true,
   "description": "项目中的各种脚本",
-  "author": "gzg1023 <hotgzg@gmail.com>",
   "homepage": "https://github.com/boty-design/boty-design#readme",
   "license": "MIT",
   "directories": {
