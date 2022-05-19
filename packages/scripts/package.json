@@ -1,8 +1,9 @@
 {
   "name": "@adc-component/scripts",
-  "version": "1.0.4",
+  "version": "0.0.1",
   "description": "项目中的各种脚本",
-  "license": "MIT",
+  "homepage": "https://github.com/boty-design/boty-design#readme",
+  "license": "ISC",
   "directories": {
     "lib": "lib"
   },
@@ -22,5 +23,5 @@
   "devDependencies": {
     "plop": "^2.7.4"
   },
-  "gitHead": "532b223c0dd403149aceef7f8e63f22c19fd0be9"
+  "gitHead": "853b99eedcc714ec49d44d71da22e949d5739381"
 }
