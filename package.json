@@ -1,61 +1,32 @@
 {
   "name": "adc-component",
-  "private": false,
-  "version": "0.0.6",
+  "private": true,
   "files": [
-    "dist/*"
+    "dist"
   ],
-  "main": "dist/adc-components.umd.js",
-  "module": "dist/adc-components.es.js",
-  "exports": {
-    ".": {
-      "import": "./adc-components.es.js",
-      "require": "./adc-components.umd.js"
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Benzic/adc-test.git"
-  },
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "lint": "eslint --cache ./src",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "adc-component": "^0.0.4",
-    "ahooks": "^3.3.12",
-    "antd": "^4.20.5",
-    "echarts": "^5.3.2",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "use-immer": "^0.7.0"
+    "dev": "lerna exec --scope \"adc-component/examples\" yarn dev",
+    "build": "lerna run --parallel --scope \"adc-component/*\" build",
+    "doc": "cross-env APP_ROOT=dumi dumi dev",
+    "doc:build": "cross-env APP_ROOT=dumi dumi build",
+    "generator": "lerna exec --scope \"adc-component/scripts\" yarn generator"
   },
   "devDependencies": {
-    "@types/react": "^18.0.0",
-    "@types/react-dom": "^18.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.22.0",
-    "@typescript-eslint/parser": "^5.22.0",
-    "@vitejs/plugin-react": "^1.3.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^8.15.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-import-resolver-typescript": "^2.7.1",
-    "eslint-plugin-html": "^6.2.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jest": "^26.1.4",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.29.4",
-    "eslint-plugin-react-hooks": "^4.5.0",
-    "eslint-plugin-testing-library": "^5.4.0",
-    "immer": "^9.0.14",
-    "less": "^4.1.2",
-    "less-loader": "^10.2.0",
-    "prettier": "^2.6.2",
-    "typescript": "^4.6.3",
-    "vite": "^2.9.9",
-    "vite-plugin-eslint": "^1.6.0"
-  }
+    "@types/classnames": "^2.2.11",
+    "@types/node": "^14.14.31",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@vitejs/plugin-react-refresh": "^1.1.0",
+    "classes": "^0.3.0",
+    "classnames": "^2.2.6",
+    "cross-env": "^7.0.3",
+    "dumi": "^1.1.7",
+    "lerna": "^3.22.1",
+    "less": "^4.1.1",
+    "typescript": "^4.1.2",
+    "vite": "^2.0.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }

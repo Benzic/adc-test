@@ -1,0 +1,27 @@
+{
+  "name": "adc-component/utils",
+  "version": "0.0.10",
+  "description": "> TODO: description",
+  "author": "boty",
+
+  "license": "ISC",
+  "main": "src/index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Benzic/adc-test.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Benzic/adc-test/issues"
+  },
+  "gitHead": "e672c3c1d4971d8b81c231c2adc79eca30db5ed8"
+}

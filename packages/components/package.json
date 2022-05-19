@@ -1,0 +1,35 @@
+{
+  "name": "adc-component/components",
+  "version": "0.0.10",
+  "description": "> TODO: description",
+  "author": "boty",
+  "license": "ISC",
+  "main": "src/index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Benzic/adc-test.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "prepublish": "yarn build"
+  },
+  "bugs": {
+    "url": "https://github.com/Benzic/adc-test/issues"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.5.0"
+  },
+  "gitHead": "e672c3c1d4971d8b81c231c2adc79eca30db5ed8"
+}

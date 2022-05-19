@@ -1,0 +1,27 @@
+{
+  "name": "adc-component/scripts",
+  "version": "1.0.0",
+  "description": "项目中的各种脚本",
+  "author": "gzg1023 <hotgzg@gmail.com>",
+
+  "license": "MIT",
+  "directories": {
+    "lib": "lib"
+  },
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Benzic/adc-test.git"
+  },
+  "scripts": {
+    "generator": "plop --plopfile generator.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Benzic/adc-test/issues"
+  },
+  "devDependencies": {
+    "plop": "^2.7.4"
+  }
+}
